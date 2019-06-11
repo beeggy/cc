@@ -37,14 +37,14 @@ class StripeChecker():
         self.purchase = "https://puppetcombo.itch.io/nun-massacre/purchase"
         self.stripe_tokens = "https://api.stripe.com/v1/tokens"
 
-        print("\n\n  {}------=[ {}MAKKI CHECKER {}]=------".format(fg[0], fg[1], fg[0]))
-        print("      {}--= {}Created by Makki {}=--          ".format(fg[0], fg[1], fg[0]))
+        print("\n\n  {}------=[ {}CODEKILLER CHECKER {}]=------".format(fg[0], fg[1], fg[0]))
+        print("      {}--= {}Created by Codekiller {}=--          ".format(fg[0], fg[1], fg[0]))
         print("  {}------========================------\n".format(fg[0]))
         self.check()
 
     def check(self):
         proxy_lists = []
-        cc_list = open('cc.txt', 'r').read()
+        cc_list = open('cc1.txt', 'r').read()
         cc_list = cc_list.split('\n')
         credit_entry = 0
         # threads = []
@@ -54,7 +54,7 @@ class StripeChecker():
             proxy = proxy.split('\n')
             for x in proxy:
                 proxy_lists.append(x)
-WE 
+
         proxy_pool = cycle(proxy_lists)
         Username = str(input(fg[2] + '[*]' + reset + ' Enter Full Name: '))
         zipcode = str(input(fg[2] + '[*]' + reset + "Enter CC's ZipCode: "))
